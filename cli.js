@@ -8,7 +8,7 @@ const chalk = require('chalk');
 const figlet = require('figlet');
 
 function readFileText(fileName) {
-	return fs.readFile(path.resolve(fileName), { encoding: 'utf-8' });
+	return fs.readFile(path.resolve(__dirname, fileName), { encoding: 'utf-8' });
 }
 
 function sleep(duration) {
