@@ -1,0 +1,23 @@
+{
+    "name": "pokemon-choose-cli",
+	"version": "1.0.0",
+	"description": "Lets you choose your starting pokemon from the comfort of your terminal",
+    "author": "Ian Richter <ianr@labs.epiuse.com>",
+    "private": true,
+	"main": "./cli.js",
+	"license": "MIT",
+	"keywords": [
+		"Pokemon",
+		"CLI"
+	],
+    "bin": {
+        "pokemon-choose": "./cli.js"
+    },
+    "dependencies": {
+        "chalk": "^3.0.0",
+        "clear": "^0.1.0",
+        "figlet": "^1.2.4",
+        "fs-extra": "^8.1.0",
+        "inquirer": "^7.0.3"
+    }
+}
