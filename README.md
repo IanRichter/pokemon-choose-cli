@@ -6,12 +6,16 @@ Lets you choose your starting pokemon from the comfort of your terminal.
 
 Clone the repo to your local machine and open a terminal in the cloned directory.
 
-You will require `npm` install to install the CLI.
+You will require `npm` or `yarn` to install the CLI.
 
-Execute the following command:
+Execute one of the following commands:
 
-```
+```bash
 npm install -g
+
+# or
+
+yarn link
 ```
 
 ## Usage
